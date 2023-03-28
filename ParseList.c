@@ -1,7 +1,7 @@
 /* ParseList.c */
-#include "header.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "header.h"
 
 /* InitParseList */
 /*    大きさnのParseListを作成し，初期化する */

@@ -11,7 +11,7 @@
 #define INPUTFILENAME "input.txt" /* 入力ファイル名       */
 #define iINPUTNUM 30              /* 入力文字列のTerm名   */
 
-void main() {
+int main() {
   FILE *fp;
   Grammar grammar;
   ParseList parselist;

@@ -1,9 +1,9 @@
 /* Rules.c     			  */
 /*   生成規則を保持するRuleの実装 */
-#include "header.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "header.h"
 
 /* InitGrammar */
 /*	   何も問題がなければ 0を  */
@@ -160,7 +160,7 @@ int TermAfterDot(Grammar *gra, int ruleno, int dotloc) {
 /* KillReturn            */
 /*  改行コードを消去する */
 void KillReturn(char *s) {
-  while (s != '\0') {
+  while (*s != '\0') {
     if (*s == '\n') {
       *s = '\0';
       return;

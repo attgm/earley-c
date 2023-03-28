@@ -1,6 +1,6 @@
-#include "header.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include "header.h"
 
 /* 大域変数 */
 static Grammar *g;
